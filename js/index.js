@@ -33,7 +33,6 @@ document.addEventListener("DOMContentLoaded", function() {
 
                 for (let i = 0; i < 6; i++) {
 
-                    console.log("Atakes", data.stats[i].stat.name,": ", data.stats[i].base_stat);
                     list.push(data.stats[i].base_stat);
 
                 }
